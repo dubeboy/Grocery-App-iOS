@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let builder = Merchant.Builder()
             .baseUrl("http://192.168.88.251:8080/groceries")
+            .query(["key": "KEY_EEEEEE_eee"])
             .build()
         Merchant(builder: builder)
         

@@ -24,7 +24,7 @@ class AddViewController: UIViewController {
         let item = Grocery(name: groceryItem.text!,
                            available: itemState.selectedSegmentIndex == 0 ? true : false)
         
-        client.$addGroceryItem(body: item) { [weak self] response in
+        client.$addGroceryItem(query: ["someOtherQuery": "qqqq"], body: item) { [weak self] response in
             switch response {
                 case .success(let success):
                     let responseEntity = success.body.entity

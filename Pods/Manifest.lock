@@ -1,5 +1,5 @@
 PODS:
-  - Alamofire (5.2.0)
+  - Alamofire (5.2.1)
   - Merchant (0.1.1):
     - Merchant/Core (= 0.1.1)
   - Merchant/Core (0.1.1):
@@ -17,9 +17,9 @@ EXTERNAL SOURCES:
     :path: "../Merchant"
 
 SPEC CHECKSUMS:
-  Alamofire: c1ca147559e730bfb2182c8c7aafbdd90a867987
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
   Merchant: c95ff8b99ce9b6b1186d72b18aad1bb93c891832
 
-PODFILE CHECKSUM: 079d948787c25177e67bb14d2a4a8920f0e0c7c0
+PODFILE CHECKSUM: 47d173b1e3a12cde7e4b624d258cfef10d558d8d
 
 COCOAPODS: 1.9.1

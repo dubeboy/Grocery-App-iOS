@@ -11,6 +11,6 @@ struct HTTPClient {
     @POST("/available", body: Bool.self)
     var toggleAvailability: StatusReponse<Bool>
     
-    @PUT(body: Grocery.self)
+    @PUT(body: Grocery.self, formURLEncoded: false, headers: ["content-type": "application/json"])
     var addGroceryItem: StatusReponse<Grocery>
 }
