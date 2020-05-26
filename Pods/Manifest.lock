@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (5.2.0)
+  - Merchant (0.1.1):
+    - Merchant/Core (= 0.1.1)
+  - Merchant/Core (0.1.1):
+    - Alamofire (~> 5.0)
+
+DEPENDENCIES:
+  - Merchant (from `../Merchant`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  Merchant:
+    :path: "../Merchant"
+
+SPEC CHECKSUMS:
+  Alamofire: c1ca147559e730bfb2182c8c7aafbdd90a867987
+  Merchant: c95ff8b99ce9b6b1186d72b18aad1bb93c891832
+
+PODFILE CHECKSUM: 079d948787c25177e67bb14d2a4a8920f0e0c7c0
+
+COCOAPODS: 1.9.1
