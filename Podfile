@@ -6,5 +6,5 @@ target 'GroceryApp' do
   use_frameworks!
 
   # Pods for GroceryApp
-  pod 'Merchant', :path => "../Merchant"
+  pod 'Merchant'
 end
